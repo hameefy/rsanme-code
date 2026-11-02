@@ -1,0 +1,18 @@
+rsanme
+  rho      = 0.3
+  r        = 1e-05
+  eta0     = 44.8671
+  etaq     = 0.810263
+  tau0     = 0.05
+  tauq     = 0.718524
+  a        = 0.00656475
+  score train: tuned 0.738 default 1.555 | valid: tuned 0.738 default 1.610
+rsanmeq
+  rho      = 0.453532
+  r        = 4.31184e-05
+  eta0     = 249.873
+  etaq     = 0.93921
+  tau0     = 0.626062
+  tauq     = 0.3
+  sigma    = 1e-07
+  score train: tuned 0.778 default 2.460 | valid: tuned 0.773 default 2.401
