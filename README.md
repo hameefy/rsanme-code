@@ -20,6 +20,8 @@ DFSANME, PAND-SR and (logistic regression only) ISCGPM.
 Run from MATLAB in `drivers/`, in this order:
 `run_tuning`, `verify_strong_monotonicity`, `run_monotone`, `run_sensitivity_a`, `run_logistic`.
 Each driver accepts `quick = true` for a small smoke test.
+The performance profiles of the paper are drawn from `results/results_monotone.csv` by `python drivers/make_profiles.py`
+(needs numpy, pandas, matplotlib); `run_monotone` also writes plainer versions through `perfprof.m`.
 All runs in the paper used MATLAB R2026a (Update 5) on Windows 11, Intel Core Ultra 9 275HX, 24 cores, 63 GB RAM.
 
 ## Data
