@@ -26,7 +26,7 @@ style = {
 }
 metrics = [("Iter", "iterations", "profile_iter"),
            ("Fev", "function evaluations", "profile_fev"),
-           ("Time", "CPU time", "profile_time")]
+           ("Time", "computing time", "profile_time")]
 key = ["Problem", "Dim", "Start"]
 plt.rcParams.update({"font.size": 12, "axes.labelsize": 13, "legend.fontsize": 11, "font.family": "serif",
                      "font.serif": ["STIXGeneral", "DejaVu Serif"], "mathtext.fontset": "stix",
