@@ -56,7 +56,7 @@ for m, label, out in metrics:
     ax.set_xscale("log")
     ax.set_xlim(1, tmax)
     ax.set_ylim(0, 1.03)
-    ax.set_xlabel("performance ratio w.r.t. " + label)
+    ax.set_xlabel("performance ratio with respect to " + label)
     ax.set_ylabel(r"$P(\tau)$")
     ax.grid(True, which="major", color="#C8C8C8", lw=0.8)
     ax.grid(True, which="minor", color="#E6E6E6", lw=0.5)
