@@ -13,7 +13,9 @@ DFSANME, PAND-SR and (logistic regression only) ISCGPM.
 - `solvers/`   all solvers, common interface `[x, info] = solver(F, x0, opts)`
 - `problems/`  test problems P1-P5, six starting points, and the disjoint training suite TR1-TR5
 - `drivers/`   experiment scripts
-- `results/`   CSV files and figures used in the paper
+- `results/`   CSV files and figures used in the paper. The files `Fig1.eps`-`Fig4d.eps` are the figures exactly as
+  submitted, under the journal's naming: Fig. 1-3 = `profile_iter`, `profile_fev`, `profile_time`;
+  Fig. 4(a)-(d) = `Residual_w1a`, `Residual_svmguide4`, `Residual_phishing`, `Residual_a9a`
 - `tuned_params.txt`, `tuned_params.mat`   parameters selected by `run_tuning`
 
 ## Reproducing the experiments
